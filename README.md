@@ -8,7 +8,7 @@ To use the following guidance should help you:
 
 1. Fetch code to a working directory
 
-1. Within the working directory build your conatainer - something like <code>docker build -t linkedin_app .</code> should work
+1. Within the working directory build your container - something like <code>docker build -t linkedin_app .</code> should work
 
 1. Having build the container it can simply be run using <code>docker run -p 8080:80 linkedin_app</code>. This will mean that the application is accessible on port 8080. You can access via a browser at <code>http://localhost:8080</code>
 
