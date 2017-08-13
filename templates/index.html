@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>LinkedIn Demo App</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../static/css/normalize.css">
+  <link rel="stylesheet" href="../static/css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../static/images/favicon.png">
+
+</head>
+
+<html>
+   <body>
+     <div class="container">
+     <div class="row">
+     <div class="one-half column" style="margin-top: 25%">
+       <h4>LinkedIn Profile Capture</h4>	
+       {% if authenticated:  %}
+       <p> profile goes here! </p>
+       {% else %}
+       <p>Please authorise with LinkedIn click on this <a href= {{link}}>link.</a></p>
+      {% endif %}
+    </div>
+    </div>
+    </div>  
+   </body>
+</html>
