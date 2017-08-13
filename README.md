@@ -2,7 +2,7 @@
 
 This is a basic application to help learn more about use of docker to build a python based web application using [flask](http://flask.pocoo.org) to retrieve information from LinkedIn (special reference to the useful LinkedIn python libray [python-linkedin](http://ozgur.github.io/python-linkedin/) which made this quite easy).
 
-Prior to using it would propbaly be best to review the Docker getting started guide - check out (https://docs.docker.com/get-started/)[https://docs.docker.com/get-started/] if you haven't already done so.
+Prior to using it would propbaly be best to review the Docker getting started guide - check out [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/) if you haven't already done so.
 
 To use the following guidance should help you:
 
