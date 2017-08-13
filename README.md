@@ -12,4 +12,4 @@ To use the following guidance should help you:
 
 1. Having build the container it can simply be run using <code>docker run -p 8080:80 linkedin_app</code>. This will mean that the application is accessible on port 8080. You can access via a browser at <code>http://localhost:8080</code>
 
-NB. It goes without saying that you'll need to authenticate with LinkedIn in orde to use the app so you'll need an account there.
+NB. It goes without saying that you'll need to authenticate with LinkedIn in order to use the app so you'll need an account there.
